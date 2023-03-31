@@ -41,6 +41,21 @@ footer ul li {
     padding: 0 14px;
 }
 
+.blog_container {
+    max-width: 800px;
+    padding: 0 14px;
+}
+
+.blog2_container {
+    max-width: 800px;
+    padding: 0 14px;
+}
+
+.projects_container {
+    max-width: 800px;
+    padding: 0 14px;
+}
+
 .navbar .navbar-toggler {
     border-color: #007bff;
 }

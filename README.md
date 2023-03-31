@@ -2,6 +2,8 @@
 This is a simple, but mostly complete html portfolio website for a school project. This is very similar to how I prepare and send websites to my clients and for example purposes, the client's name is 'Someone'.
 
 <br/>
+For the time being, an example of this website is available at: <a href="https://portfolio.kk.dev">portfolio.kk.dev</a>.
+<br/>
 
 
 ## Updates
