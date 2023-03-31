@@ -1,0 +1,28 @@
+## .htaccess file - compatible with the Apache HTTP server
+
+# Enable rewrite engine to allow for url rewriting
+RewriteEngine On
+
+
+# Disable directory search for privacy
+Options -Indexes
+
+
+# Rewrite and redirect requests to a direct .html page to their respective file names e.g. /page.html -> /page
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+# To replicate with php if we decide to migrate to a php backend, duplicate and replace .html with .php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+
+# Error pages
+ErrorDocument 301 /error/301.html
+ErrorDocument 302 /error/302.html
+ErrorDocument 403 /error/403.html
+ErrorDocument 404 /error/404.html
+ErrorDocument 408 /error/408.html
+ErrorDocument 410 /error/410.html
+ErrorDocument 500 /error/500.html
+ErrorDocument 503 /error/503.html
