@@ -7,4 +7,4 @@ For the time being, an example of this website is available at: <a href="https:/
 
 
 ## Updates
-- 3/30/2023: The website is just about complete, I've added all the necessary pages. Next, you might want to look into adding some php and create a CMS for your blog as at the moment you would have to add new blog posts and update the links which will get exhausting over time.
+- 3/30/2023: The website is just about complete, and I've added all the necessary pages. Next, you might want to look into adding some PHP and creating a content management system (CMS) for your blog because as of now, you would have to add new blog posts and update the links individually and update the html which will get exhausting over time.
